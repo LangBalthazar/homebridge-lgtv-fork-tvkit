@@ -1,8 +1,8 @@
 # Homebridge Plugin for LG 2012 Series TVs
 
-# Specific for for a LG55LM760-ZB. (Old TV) 
-# To Do, fix volume control from the native ios remote
-# To Do, fix or confirm On/Off power cycle control from homekit home app
+This fork for:  Specific for for a LG55LM760-ZB. (Old TV) 
+ To Do, fix volume control from the native ios remote
+ To Do, fix or confirm On/Off power cycle control from homekit home app
 
 Homebridge Plugin based off (https://npmjs.org/package/homebridge-lgtv2) to allow Siri to control LGTV 2012 series.
 
