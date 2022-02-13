@@ -1,11 +1,15 @@
 # Homebridge Plugin for LG 2012 Series TVs
 
+# Specific for for a LG55LM760-ZB. (Old TV) 
+# To Do, fix volume control from the native ios remote
+# To Do, fix or confirm On/Off power cycle control from homekit home app
+
 Homebridge Plugin based off (https://npmjs.org/package/homebridge-lgtv2) to allow Siri to control LGTV 2012 series.
 
 Hacked together to work with the native IOS 10 Home App, the plugin emulates a light bulb, and maps the brightness control to volume.
 
 ## Features
-* Power on/off (Works with IOS Home App)
+* Power on/off (Works with IOS Home App) 
 
 * Change volume (Works with IOS Home App)
 The Brightness (Volume) is controlled by percentage, according to the max_volume parameter. My TV can go to 50, but this seems way to loud: so the default is 20.
